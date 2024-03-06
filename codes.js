@@ -18,3 +18,4 @@ var renderClass;
 			console.error("Unable to find matching renderer:", this.table.options.renderHorizontal);
 		}
 	}
+//yes
