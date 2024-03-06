@@ -19,3 +19,14 @@ var renderClass;
 		}
 	}
 //yes
+var el = document.createElement("div");
+		
+		el.classList.add("tabulator-header");
+		el.setAttribute("role", "rowgroup");
+		
+		if(!this.table.options.headerVisible){
+			el.classList.add("tabulator-header-hidden");
+		}
+		
+		return el;
+	}
